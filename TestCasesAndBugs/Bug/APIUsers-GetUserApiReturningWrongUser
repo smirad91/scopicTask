@@ -1,0 +1,15 @@
+When api for get user is called with one id, wrong user is returned
+
+Steps to reproduce:
+precondition: Have user with id and his other data
+1. In swagger, call api with this user id
+2. Check returned result
+Expected:
+Return correct user info for given user id
+Actual:
+Wrong user credential returned for given info
+
+
+Environment:
+qa
+

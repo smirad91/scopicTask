@@ -1,0 +1,15 @@
+When registered user try to login, error message "There was a problem" is shown.
+
+Steps to reproduce:
+User is registered. User is on login page
+1. User enter email and click continue
+Expected:
+User is shown with password to enter and button to login
+Actual:
+User is presented with error message "There was a problem"
+
+Environment:
+qa
+
+Device:
+Windows, Chrome browser

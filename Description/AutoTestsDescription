@@ -1,0 +1,22 @@
+Tools:
+- testlink - for writing manual test cases
+- Selenium WebDriver in python - for automation testing of web site
+    - I would use packages in python that I created during my work in automation testing. Packages names:
+    selenium-logging for logging to HTML, and testOrganizer for sorting, executing and reporting tests.
+- python - for API testing
+- jira - for reporting bugs
+
+
+Tests from manual test cases should be automated, where priority would be tests for core features (for amazon: login, register, search,
+shop by department, add to chart, create item to sell, emails).
+ Then tests that frequently fails while manual testing. Then tests that take too long for tester to run
+them manually.
+
+How test framework folder structure would be organized:
+- Lib
+    -basic - contains method that are not web site specific, like creating browser, get info from json file
+    -amazon - contains methods for amazon web site, divided in files (LoginPage, RegisterPage, MainPage)
+    -reqres - containt methods for APIs
+-Tests
+    -amazon - automated tests for GUI
+    -reqres - automated tests for API

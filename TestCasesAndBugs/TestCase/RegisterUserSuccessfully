@@ -1,0 +1,6 @@
+Preconditions:
+navigate to register page
+
+
+Steps:
+enter valid info in input fields (name, email, password) and click create account btn | expected: user is logged in. main page is shown
